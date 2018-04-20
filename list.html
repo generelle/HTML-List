@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List in HTML</title>
+</head>
+<body>
+  <br><h1> list</h1>
+  <p>Ul tags: An unordered list, will list items using bullets.
+      <br> Ol tags: an ordered list, will use different schemes of numbers to list items.<br>  Dl tags for a definition list that arranges items in the same way as they are arranged in a dictionary. </p>
+   <h3> Unorder list, order list and  definition Lists</h3>
+   <!-- unorer list-->   
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+    <!-- Order list-->
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ol>
+    <!-- Definition Lists -->
+    <dl>
+        <dt>item 1</dt>
+        <dd>Water</dd>
+        <dt>item 2</dt>
+        <dd>Ocean</dd>
+        <dt>item 3</dt>
+        <dd>The humans</dd>
+        <dt>item 4</dt>
+        <dd>The animals</dd>
+        <dt>item 5</dt>
+        <dd>The world</dd>
+    </dl>
+    <h2>Adding list style using CSS innline</h2>
+    <p> Use "list-style-type:disc" for disc, "list-style-type:circle" for circle, "list-style-type:none" for none and "list-style-type:square" for square</p> 
+    <h3>Other</h3>
+    <p> Decimal, decimal-leading-zero, lower-roman, upper-roman, lower-greek, lower-latin, upper-latin, armenian, georgian, lower-alpha and upper-alpha</p>
+    <h4>Example</h4>
+    <ul style="list-style:circle">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+    <h2> Nested list</h2>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <ul>
+            <li>list inside list 1</li>
+            <li>list inside list 2</li>
+            <li>list inside list 3</li>
+        </ul>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ul>
+
+   <h2>Order list attributes</h2>
+   <p>Use "1" for numbered wich is the default or "40" to start the counting . <br> Use "A" for numbered with uppercase letters.<br>Use "a" for numbered with lowercase letters. Use "I" for numbered with uppercase roman numbers.<br> Use "i" for numbered with lowercase roman numbers
+   </p>
+   <h3> Example Uppercase roman numbers using I and if change to i for lowercase </h3>
+   <ol type="I">
+       <li>item 1</li>
+       <li>item 2</li>
+       <li>item 3</li>
+       <li>item 4</li>
+       <li>item 5</li>
+    </ol>
+<h2>Horizontal list using CSS</h2>
+   <ul style="background-color: blue; " >
+       <li style="background-color:blue; color: white; margin: 5px; list-style-type: none;display: inline-block;"><a style="color: skyblue; background-color: black;" href="#" target="_blank"> Item 1</a></li>
+       <li style="background-color:blue; color: white; margin: 5px; list-style-type: none;display: inline-block;padding: 5px;"><a style="color: white; background-color: black;" href="#" target="_blank"> Item 2</a></li>
+       <li style="background-color:blue; color: white; margin: 5px; list-style-type: none;display: inline-block; padding: 5px; padding: 10px;"><a style="color: white; background-color: black;" href="#" target="_blank"> Item 3</a></li>
+       <li style="background-color:blue; color: white; margin: 5px; list-style-type: none;display: inline-block; padding: 5px;"><a style="color: white; background-color: black;" href="#" target="_blank"> Item 4</a></li> 
+   </ul>
+    
+    
+</body>
+</html>
